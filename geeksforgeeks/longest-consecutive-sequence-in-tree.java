@@ -23,7 +23,7 @@ class TreeNode
 class GfG
 {
     private int maxCount = 1;
-	public int longestConsecutive(TreeNode root)
+    public int longestConsecutive(TreeNode root)
     {
         getCount(root, root.key, 1);
         return maxCount == 1 ? -1 : maxCount;
